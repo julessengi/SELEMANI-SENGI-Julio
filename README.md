@@ -1,22 +1,9 @@
 layout: default
 title: "SELEMANI — Portfolio"
 theme: jekyll-theme-minimal
-
-
-
-
 ---
-
 <!-- IMAGE HEADER PLACEHOLDER -->
-<div style="width:100%;height:220px;background:#f3f3f3;border:2px dashed #ccc;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;color:#666;font-family:Inter, sans-serif;">
-<img src =julio5.png > </div>
-
-
-
-
-
-
-
+<div style="width:100%;height:220px;background:#f3f3f3;border:2px dashed #ccc;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;color:#666;font-family:Inter, sans-serif;"> <img src =julio5.jpg ></div>
 
 <!doctype html><html lang="fr">
 <head>
