@@ -1,169 +1,125 @@
-layout: default
-title: "SELEMANI — Portfolio"
-theme: jekyll-theme-minimal
+# Julio Selemani Sengi
+
+### Full Stack Developer · AI & Automation · Data & Finance
+
+> Je conçois des solutions numériques qui relient **technologie, données, automatisation et performance**.
+
+🇨🇩 République démocratique du Congo · Kinshasa
+
+[🌐 Voir le portfolio](https://julessengi.github.io/SELEMANI-SENGI-Julio/) · [💻 GitHub](https://github.com/julessengi) · [🏛️ CCCZ](https://www.ccclezoo.cd)
+
 ---
-<!-- IMAGE HEADER PLACEHOLDER -->
-<div><img src="julio5.jpg" alt="Photo de Selemani" style="width:100%; max-width:1200px; border-radius:8px; margin:20px auto; display:block;">
-</div>
 
-<!doctype html><html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SELEMANI — Portfolio & README</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{--bg:#071021;--card:#071727;--muted:#9aa4b2;--accent:#06b6d4;--glass: rgba(255,255,255,0.03);--glass2: rgba(255,255,255,0.02)}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg) 0%, #071827 80%);color:#e6eef6}
-    .wrap{max-width:1100px;margin:36px auto;padding:24px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:26px;box-shadow:0 12px 40px rgba(2,6,23,0.6);border:1px solid var(--glass2)}
-    header{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
-    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:36px;color:#071827}
-    h1{margin:0;font-size:28px}
-    p.lead{color:var(--muted);margin-top:6px}
-    .badges{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
-    .badge{display:inline-flex;align-items:center;gap:8px;background:transparent;padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px;border:1px solid var(--glass2)}
-    nav{display:flex;gap:10px;margin-top:14px}
-    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--accent);text-decoration:none;font-weight:700}
+## 👋 À propos
 
-    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:22px}
-    main{min-width:0}
-    h2{margin:0 0 10px 0;font-size:18px}
-    .section{margin-bottom:18px}
-    ul{margin:8px 0 0 18px;color:var(--muted)}
-    pre{background:#061021;padding:12px;border-radius:8px;overflow:auto;color:#cfeff6}
+Je suis **Julio Selemani Sengi**, développeur Full Stack et passionné par l'intelligence artificielle, l'automatisation, l'analyse des données et la finance.
 
-    .projects{display:flex;flex-direction:column;gap:12px}
-    .project{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);padding:12px;border-radius:10px;border:1px solid var(--glass2)}
-    .meta{color:var(--muted);font-size:13px}
+Mon parcours combine informatique et finance avec un intérêt particulier pour la création de solutions numériques concrètes.
 
-    aside{padding-left:12px}
-    .card-cta{background:linear-gradient(90deg,#06202a, #071227);padding:14px;border-radius:10px;border:1px solid var(--glass2);margin-top:12px}
+Je développe des applications web, des systèmes d'automatisation et des outils d'analyse destinés à résoudre des problèmes réels. Je m'intéresse également à la transformation numérique, aux projets culturels et environnementaux et aux technologies appliquées à la finance.
 
-    footer{margin-top:22px;color:var(--muted);font-size:13px;text-align:center}
+### Ma philosophie
 
-    @media (max-width:980px){.grid{grid-template-columns:1fr}.aside{order:2}}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="card">
-      <header>
-        <div class="avatar">S</div>
-        <div style="flex:1;min-width:0">
-          <h1>SELEMANI — Développeur · Architecte · Chef de projet</h1>
-          <p class="lead">Conception web, pipelines GitHub → CPanel, intégration IA, projets culturels & environnementaux. Portfolio professionnel et README stylé pour GitHub.</p>
+**Construire → Analyser → Automatiser → Améliorer**
 
-          <div class="badges" aria-hidden>
-            <span class="badge"><img src="https://img.shields.io/badge/PHP-8.x-blue?logo=php&logoColor=white" alt="PHP"> PHP · MySQL</span>
-            <span class="badge"><img src="https://img.shields.io/badge/GitHub-Actions-black?logo=githubactions&logoColor=white" alt="CI"> CI/CD</span>
-            <span class="badge"><img src="https://img.shields.io/badge/CPanel-orange?logo=cpanel&logoColor=white" alt="CPanel"> Hébergement</span>
-            <span class="badge"><img src="https://img.shields.io/badge/Impact-Culture-green" alt="Impact"> Culture & Environnement</span>
-          </div>
+---
 
-          <nav>
-            <a class="btn" href="#projects">Projets</a>
-            <a class="btn" href="#skills">Compétences</a>
-            <a class="btn" href="#contact">Contact</a>
-          </nav>
-        </div>
-      </header>
+## 🧠 Domaines
 
-      <div class="grid">
-        <main>
-          <section class="section" id="projects">
-            <h2>Projets clés</h2>
-            <div class="projects">
-              <div class="project">
-                <strong>CCC Le Zoo — Site officiel</strong>
-                <div class="meta">Stack: PHP · MySQL · GitHub Actions · CPanel</div>
-                <p style="color:var(--muted);margin-top:8px">Conception complète du site institutionnel <a href="https://www.ccclezoo.cd" style="color:var(--accent)">www.ccclezoo.cd</a>. Modules: Articles, Projets, Événements, Partenaires. Pipeline automatique pour déploiement.</p>
-              </div>
+- 💻 **Développement Full Stack**
+- 🤖 **IA & Automatisation**
+- 📊 **Data & Analyse financière**
+- 🌐 **Infrastructure, Docker & CI/CD**
+- 🏛️ **Transformation numérique**
+- 🌍 **Technologie appliquée aux projets culturels et environnementaux**
 
-              <div class="project">
-                <strong>Projet Environnemental — Plateforme de présentation</strong>
-                <div class="meta">Objectif: convaincre partenaires et faciliter financement</div>
-                <p style="color:var(--muted);margin-top:8px">Documentation technique, landing page partenaire, dossiers PDF et structure prête à l'emploi.</p>
-              </div>
+---
 
-              <div class="project">
-                <strong>Architecture Réseau & Cybersécurité</strong>
-                <div class="meta">Topologie multi-sites, monitoring et sécurisation</div>
-                <p style="color:var(--muted);margin-top:8px">Plan technique pour 3 sites provinciaux, recommandations de sécurité et scripts d'automatisation.</p>
-              </div>
-            </div>
-          </section>
+## 🛠️ Technologies
 
-          <section class="section" id="articles">
-            <h2>Module Articles & Contenu</h2>
-            <p style="color:var(--muted)">Structure recommandée: catégories (Actualités, Projets, Événements), flux RSS, interface CRUD sécurisée (upload image + validation), SEO multilingue FR/EN.</p>
-            <pre>&lt;!-- Routes exemple --&gt;
-GET /articles   → ArticlesController@index
-GET /article/{id} → ArticlesController@show
-POST /articles   → ArticlesController@store (auth required)</pre>
-          </section>
+### Development
+`PHP` `JavaScript` `Node.js` `HTML5` `CSS3` `MySQL` `REST API` `MVC`
 
-          <section class="section" id="roadmap">
-            <h2>Roadmap (synthétique)</h2>
-            <ul>
-              <li>Phase 1 — Fondation technique (hébergement, DB, structure)</li>
-              <li>Phase 2 — Front-end & identité visuelle</li>
-              <li>Phase 3 — Modules (Articles, Projets, Partenaires)</li>
-              <li>Phase 4 — CI/CD & Automatisation</li>
-              <li>Phase 5 — Tests, SEO, accessibilité et lancement</li>
-            </ul>
-          </section>
+### DevOps & Infrastructure
+`Git` `GitHub` `GitHub Actions` `Docker` `Linux` `WSL` `cPanel` `CI/CD`
 
-          <section class="section" id="usage">
-            <h2>Utilisation</h2>
-            <p style="color:var(--muted)">Place ce fichier <code>README.html</code> à la racine du dépôt ou dans <code>docs/</code> pour l'afficher via GitHub Pages. Personnalise les liens et contenus au fur et à mesure.</p>
-            <div class="card-cta">
-              <strong>Astuce :</strong> Pour activer une page attractive sur GitHub Pages, dépose ce fichier dans <code>docs/</code> et active GitHub Pages sur la branche <code>main</code>.
-            </div>
-          </section>
-        </main>
+### AI & Automation
+`n8n` `AI Agents` `MCP` `APIs` `Workflow Automation`
 
-        <aside>
-          <div class="section" id="skills">
-            <h2>Compétences</h2>
-            <ul>
-              <li>PHP 8 · MySQL · MVC</li>
-              <li>CI/CD: GitHub Actions</li>
-              <li>Hébergement: CPanel, FTPS</li>
-              <li>Automatisation: Agents MCP</li>
-              <li>Design: Identité visuelle & UI institutionnelle</li>
-            </ul>
-          </div>
+### Data & Finance
+`Data Analysis` `Statistics` `Financial Analysis` `Risk Management` `Trading`
 
-          <div class="section" id="contact">
-            <h2>Contact</h2>
-            <p style="color:var(--muted)">Basé en RDC — Disponible pour collaborations et missions.</p>
-            <p style="margin-top:8px"><a class="btn" href="https://github.com/SELEMANI">Profil GitHub</a></p>
-            <p style="margin-top:8px;color:var(--muted)">Projet: <a href="https://www.ccclezoo.cd" style="color:var(--accent)">www.ccclezoo.cd</a></p>
-          </div>
+---
 
-          <div class="section">
-            <h2>Extrait technique</h2>
-            <pre>CREATE TABLE articles (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  title VARCHAR(255),
-  slug VARCHAR(255),
-  body TEXT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+# 🚀 Projets
 
-.github/workflows/deploy.yml
-</pre>
-          </div>
-        </aside>
-      </div>
+## 🏛️ CCCZ — Centre Culturel Congolais « Le Zoo »
 
-      <footer>
-        © SELEMANI — Portfolio & README • Généré en HTML stylé
-      </footer>
-    </div>
-  </div>
-</body>
-</html>
+Projet de transformation numérique et de développement de la présence digitale du Centre Culturel Congolais « Le Zoo ».
 
+**Technologies :** PHP · MySQL · JavaScript · GitHub Actions · cPanel
+
+🌐 [www.ccclezoo.cd](https://www.ccclezoo.cd)
+
+---
+
+## 📈 TSP-JULES
+
+Projet personnel de recherche et développement autour de l'analyse des marchés, de la gestion du risque, du journal de trading, des statistiques et de l'automatisation.
+
+### Axes
+
+- Analyse des marchés
+- Data
+- Journalisation
+- Statistiques
+- Risk Management
+- TradingView
+- Automatisation
+- IA
+
+> Projet de recherche et d'expérimentation. Aucune promesse de rendement financier n'est associée à ce projet.
+
+---
+
+## 🌿 Projet environnemental
+
+Conception d'une plateforme numérique destinée à présenter, documenter et structurer un projet environnemental auprès de partenaires.
+
+---
+
+## 🌐 Architecture & Infrastructure
+
+Expérimentations autour de Docker, Linux/WSL, réseaux, GitHub Actions, CI/CD, monitoring et automatisation.
+
+---
+
+## 🔭 Ce que je construis actuellement
+
+- Développement web
+- Automatisation de workflows
+- Intégration de l'IA
+- Analyse de données
+- Outils autour de la finance et du trading
+- Infrastructure et déploiement
+
+---
+
+## 🎯 Vision
+
+**TECHNOLOGIE + DATA + AUTOMATISATION + FINANCE + IMPACT**
+
+Construire progressivement des solutions numériques utiles, en combinant développement logiciel, analyse et automatisation.
+
+---
+
+## 📂 Structure du dépôt
+
+```text
+SELEMANI-SENGI-Julio/
+├── index.html
+├── img/
+│   └── Barnière_julio_selemani.png
+├── README.md
+└── Lisez-moi.md
+```
